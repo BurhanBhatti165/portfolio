@@ -25,6 +25,8 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
+  width: 100%;
+  max-width: 420px; // keeps cards from stretching; enables centering on last row
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -59,9 +61,21 @@
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; // center items on every row
+}
+
+/* When exactly one project card, center it in the row */
+.projects-container:has(.project-card:nth-child(1):last-child) {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/* keep the explicit single class as a no-op for compatibility */
+.projects-container.single {
+  justify-content: center;
 }
 
 .project-card-footer span.project-tag {

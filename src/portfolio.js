@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Muhammad Burhan Bhatti",
+  title: "Hi all, I'm Burhan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Computer Science undergraduate at FAST-NUCES, Lahore, specializing in web development and AI/ML. Proficient in C++, React, Django, Python and LangChain, with strong knowledge of modern software engineering practices. Demonstrated ability to build scalable projects, collaborate in cross-functional teams, and continuously explore emerging technologies. Eager to contribute to impactful software solutions while expanding a versatile technical skillset."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/BurhanBhatti165",
+  linkedin: "https://www.linkedin.com/in/burhanbhatti165/",
+  gmail: "burhanbhatti166@gmail.com",
+ 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +45,21 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "AI/ML & Full-Stack Expertise",
+  subTitle: "PASSIONATE COMPUTER SCIENCE STUDENT SPECIALIZING IN ARTIFICIAL INTELLIGENCE, MACHINE LEARNING, AND MODERN WEB DEVELOPMENT",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🤖 Develop cutting-edge AI/ML solutions using LangChain, RAG, and advanced neural network architectures"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build highly interactive, responsive web applications with React.js and modern web technologies"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🚀 Create scalable full-stack applications with Django, FastAPI, and Python backend technologies"
+    ),
+    emoji(
+      "🔮 Implement real-time AI features using WebRTC, STT/TTS with Whisper and ElevenLabs"
+    ),
+    emoji(
+      "🧠 Design and deploy custom neural networks for computer vision and natural language processing"
     )
   ],
 
@@ -65,56 +68,74 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "AI/ML",
+      logo: "https://img.icons8.com/color/96/artificial-intelligence.png",
+      officialUrl: "https://openai.com/"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Python",
+      logo: "https://img.icons8.com/color/96/python.png",
+      officialUrl: "https://python.org/"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "HTML",
+      logo: "https://img.icons8.com/color/96/html-5.png",
+      officialUrl: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      skillName: "CSS",
+      logo: "https://img.icons8.com/color/96/css3.png",
+      officialUrl: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      skillName: "React",
+      logo: "https://img.icons8.com/color/96/react-native.png",
+      officialUrl: "https://reactjs.org/"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      logo: "https://img.icons8.com/color/96/javascript.png",
+      officialUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Neural Networks",
+      logo: "https://img.icons8.com/color/96/neural-network.png",
+      officialUrl: "https://pytorch.org/"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "LangChain",
+      logo: "https://img.icons8.com/color/96/link.png",
+      officialUrl: "https://langchain.com/"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Django",
+      logo: "https://img.icons8.com/color/96/django.png",
+      officialUrl: "https://djangoproject.com/"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "FastAPI",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+      officialUrl: "https://fastapi.tiangolo.com/"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Git",
+      logo: "https://img.icons8.com/color/96/git.png",
+      officialUrl: "https://git-scm.com/"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Database",
+      logo: "https://img.icons8.com/color/96/database.png",
+      officialUrl: "https://www.postgresql.org/"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Linux",
+      logo: "https://img.icons8.com/color/96/linux.png",
+      officialUrl: "https://www.linux.org/"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "MCP",
+      logo: require("./assets/images/skill.svg"),
+      officialUrl: "https://github.com/modelcontextprotocol"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +147,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "FAST-NUCES, Lahore",
+      logo: require("./assets/images/fast.png"), 
+      subHeader: "Bachelor of Science in Computer Science (6th Semester)",
+      duration: "September 2022 - Present",
+      desc: "Currently pursuing Computer Science degree with focus on software engineering, web development, and AI/ML technologies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specializing in web development and AI/ML technologies",
+        "Strong foundation in software engineering practices",
+        "Active participation in technical projects and competitions"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Punjab College, Sheikhupura",
+      logo: require("./assets/images/pgc.png"),
+      subHeader: "Intermediate (Pre-Engineering)",
+      duration: "2019 - 2021",
+      desc: "Completed pre-engineering with strong foundation in mathematics and sciences.",
+      descBullets: ["Pre-Engineering focus with mathematics and sciences"]
     }
   ]
 };
@@ -153,16 +175,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "AI/ML & Neural Networks", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Frontend/React Development",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Python & Backend Systems",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "LangChain & RAG Systems",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +200,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Machine Learning Intern",
+      company: "Mavericks United",
+      companylogo: require("./assets/images/mavericks.jpg"), 
+      desc: "Working on automating internal processes using customized ML pipelines and fine-tuned LLMs. Building scalable AI solutions tailored to company requirements for operational efficiency.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developing customized ML pipelines for process automation",
+        "Building scalable AI solutions for operational efficiency",
+        "Working with fine-tuned LLMs for business applications"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "AI Intern",
+      company: "Neuronexus",
+      companylogo: require("./assets/images/neuron.jpg"), 
+      desc: "Developed AI-powered projects using LangChain, RAG, and LlamaGraph. Currently working on configuring and maintaining scalable MCP (Model Context Protocol) servers.",
+      descBullets: [
+        "Developed AI-powered projects using LangChain, RAG, and LlamaGraph",
+        "Configuring and maintaining scalable MCP servers",
+        "Working with advanced AI/ML technologies and frameworks"
+      ]
     }
   ]
 };
@@ -213,37 +236,94 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME NOTABLE PROJECTS THAT I'VE DEVELOPED",
   projects: [
+    
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.webp"), // PrepFAST placeholder
+      projectName: "PrepFAST | Python, Django, AI/ML",
+      projectDesc: "Developed a web platform enabling students to access past exam papers and generate AI-based practice questions. Implemented paper evaluation features to enhance exam preparation through interactive feedback.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/PrepFast"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/saayaHealthLogo.webp"), // DRS App placeholder
+      projectName: "DRS App | Python, ML, Computer Vision",
+      projectDesc: "Decision Review System for cricket academies using ML models for ball trajectory analysis and decision making. Built with Python, TensorFlow, and advanced AI/ML technologies.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/DRS_App"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"), // Skill Share placeholder
+      projectName: "Skill Share Platform | React, ASP.NET, Django",
+      projectDesc: "Platform for students to register for courses, review instructors, and track learning progress. Built with React, ASP.NET, and Django for comprehensive learning management.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/skill-share-"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"), // ASL Recognition placeholder
+      projectName: "ASL Recognition System | HTML, Computer Vision",
+      projectDesc: "American Sign Language recognition system using computer vision and machine learning. Enables real-time sign language interpretation for improved accessibility.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/asl-recognition"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"), // COAL Project placeholder
+      projectName: "Jumping Rabbit Game | Assembly Language",
+      projectDesc: "Designed a jumping rabbit game using Assembly language, delving into low-level programming concepts. This endeavor enriched understanding of computer architecture and assembly programming.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/COAL-PROJECT"
+        }
+      ]
+    },
+    
+    {
+      image: require("./assets/images/nextuLogo.webp"), // OOP Tetris placeholder
+      projectName: " Tetris Game | C++",
+      projectDesc: "Classic Tetris game implementation using Object-Oriented Programming principles in C++. Demonstrates strong software engineering practices and game development skills.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/OOP-PROJECT"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"), // High Performance Compiler placeholder
+      projectName: "High Performance Compiler | C++",
+      projectDesc: "Advanced compiler implementation focusing on optimization and performance. Built with C++ for efficient code compilation and execution.",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/BurhanBhatti165/cc_project"
+        }
+      ]
+    },
+    
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
+
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -252,50 +332,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Building AI Browser Agents",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed DeepLearning.AI course on building AI agents that navigate and interact with websites. Learned agent frameworks, evaluation, monitoring, and fine-tuning for reliable web automation.",
+      image: require("./assets/images/codeInLogo.webp"), // Using existing image as placeholder
+      imageAlt: "AI Browser Agents Certificate",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "https://learn.deeplearning.ai/accomplishments/3b5b8664-e16a-4e88-82da-330178ff3426?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "MCP: Build Rich-Context AI Apps with Anthropic",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed DeepLearning.AI course on Model Context Protocol (MCP). Learned to build AI apps that access tools, data, and prompts using MCP architecture for enhanced AI capabilities.",
+      image: require("./assets/images/googleAssistantLogo.webp"), // Using existing image as placeholder
+      imageAlt: "MCP AI Apps Certificate",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://learn.deeplearning.ai/accomplishments/6926a2ec-aed7-4bc6-8ea1-a66b1b04dbdb?usp=sharing"
         }
       ]
     },
-
+    
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Software Engineering Best Practices",
+      subtitle: "Demonstrated ability to build scalable projects, collaborate in cross-functional teams, and continuously explore emerging technologies.",
+      image: require("./assets/images/nextuLogo.webp"), // Using existing image as placeholder
+      imageAlt: "Software Engineering Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Code",
+          url: "https://github.com/BurhanBhatti165"
         }
       ]
     }
@@ -309,19 +380,19 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@burhanbhatti166/building-ai-powered-applications-with-langchain-e8920ccddc16",
+      title: "Building AI-Powered Applications with LangChain",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Exploring the capabilities of LangChain in building intelligent applications and the integration of RAG systems for enhanced user experiences."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@burhanbhatti166/modern-web-development-with-react-and-django-872cfaa3afaa",
+      title: "Modern Web Development with React and Django",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Best practices for building scalable web applications using React.js frontend and Django backend with modern software engineering practices."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -337,13 +408,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "AI in Modern Web Applications",
+      subtitle: "Tech Talk at FAST-NUCES, Lahore",
+      slides_url: "https://slides.com/burhanbhatti165/ai-web-apps",
+      event_url: "https://www.linkedin.com/in/burhanbhatti165/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,9 +425,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +443,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-313-6994851",
+  email_address: "burhanbhatti166@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "twitter", 
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

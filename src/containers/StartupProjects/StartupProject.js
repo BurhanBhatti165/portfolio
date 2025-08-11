@@ -17,6 +17,7 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
+  const isSingle = bigProjects.projects && bigProjects.projects.length === 1;
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -32,7 +33,7 @@ export default function StartupProject() {
             {bigProjects.subtitle}
           </p>
 
-          <div className="projects-container">
+          <div className={`projects-container ${isSingle ? 'single' : ''}`}>
             {bigProjects.projects.map((project, i) => {
               return (
                 <div
